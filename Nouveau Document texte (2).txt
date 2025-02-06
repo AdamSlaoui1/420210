@@ -1,0 +1,13 @@
+public class Exo001 
+{
+	public static void main (String[] args)
+	{
+		if(args.length != 2)
+		{
+			System.err.println("Veuillez entrez votre prenom";
+			System.exit(0);
+		}
+		System.out.println( "Bonjour" + args[0] + " " + args[1];
+	}
+	
+}
